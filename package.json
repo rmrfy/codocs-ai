@@ -1,17 +1,20 @@
 {
-  "name": "codocs-ai",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "probot": "^13.4.4"
-  }
+    "type": "module",
+    "name": "codocs-ai",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@octokit/webhooks": "^13.7.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "octokit": "^4.1.2",
+        "probot": "^13.4.4"
+    }
 }
